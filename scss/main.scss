@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+$very-dark-blue: hsl(243, 87%, 12%);
+$desaturated-blue: hsl(238, 22%, 44%);
+
+$bright-blue: hsl(224, 93%, 58%);
+$moderate-cyan: hsl(170, 45%, 43%);
+
+$light-grayish-blue: hsl(240, 75%, 98%);
+$light-gray: hsl(0, 0%, 75%);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.hero-2 {
+	background-color: $light-grayish-blue;
+}
+
+.testimonials {
+	background-color: #fff;
+}
+
+.newsletter {
+	background-color: $desaturated-blue;
+}
+
+.footer {
+	background-color: $very-dark-blue;
+	color: #fff;
+}
