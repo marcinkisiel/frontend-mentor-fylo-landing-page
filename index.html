@@ -3,32 +3,20 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
 
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="css/main.css" />
 		<title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
 	</head>
 	<body>
 		<header class="header">
 			<img class="header__logo" src="images/logo.svg" alt="logo" />
-			<nav class="main__nav">
-				<ul class="main__nav__list">
-					<li class="main__nav__item"><a class="nav__link" href="#">Features</a></li>
-					<li class="main__nav__item"><a class="nav__link" href="#">Team</a></li>
-					<li class="main__nav__item"><a class="nav__link" href="#">Sign In</a></li>
+			<nav class="main-nav">
+				<ul class="main-nav__list">
+					<li class="main-nav__item"><a class="main-nav__link" href="#">Features</a></li>
+					<li class="main-nav__item"><a class="main-nav__link" href="#">Team</a></li>
+					<li class="main-nav__item"><a class="main-nav__link" href="#">Sign In</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -45,7 +33,7 @@
 					</p>
 					<form class="hero-1__form" action="GET">
 						<label class="hero-1__form__label" for="email"></label>
-						<input class="hero-1__form__email" type="email" name="email" id="" />
+						<input class="hero-1__form__email" type="email" name="email" id="hero-email" />
 						<input class="hero-1__form__submit" type="submit" value="Get Started" />
 					</form>
 				</div>
@@ -87,7 +75,7 @@
 				</p>
 				<form class="newsletter__form" action="GET">
 					<label class="newsletter__form__label" for="email"></label>
-					<input class="newsletter__form__email" type="email" name="email" id="" />
+					<input class="newsletter__form__email" type="email" name="email" id="email" />
 					<input class="newsletter__form__submit" type="submit" value="Get Started For Free" />
 				</form>
 			</section>

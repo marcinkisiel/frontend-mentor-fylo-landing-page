@@ -17,12 +17,53 @@ $light-gray: hsl(0, 0%, 75%);
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	padding: 25px;
 }
 
 h1,
 h2,
 h3 {
 	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+
+	&__logo {
+		height: 25px;
+		width: auto;
+	}
+}
+
+.main-nav {
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item {
+		list-style: none;
+	}
+
+	&__item + &__item {
+		margin-left: 25px;
+	}
+
+	&__link {
+		color: $very-dark-blue;
+		font-family: 'Raleway', sans-serif;
+		font-size: 12px;
+	}
 }
 
 .hero-2 {
@@ -40,4 +81,12 @@ h3 {
 .footer {
 	background-color: $very-dark-blue;
 	color: #fff;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
