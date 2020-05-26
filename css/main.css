@@ -20,6 +20,22 @@ img { width: 100%; }
 
 .main-nav__link { color: #070439; font-family: 'Raleway', sans-serif; font-size: 12px; }
 
+.hero-1 { text-align: center; }
+
+.hero-1__title { line-height: 1.5; margin-bottom: 30px; margin-top: 25px; }
+
+.hero-1__info { font-size: 14px; margin: 0 auto 25px; width: 95%; }
+
+.hero-1__form-email, .hero-1__form-submit { border-radius: 3px; display: block; font-family: 'Raleway', sans-serif; height: 40px; margin: 0 auto; width: 90%; }
+
+.hero-1__form-email { border: 1px solid #585989; margin-bottom: 15px; padding: 20px; }
+
+.hero-1__form-email::placeholder { color: #bfbfbf; }
+
+.hero-1__form-submit { background-color: #3065f8; border: none; color: #fff; font-weight: 600; }
+
+.hero-1__form-submit:focus { outline: none; }
+
 .hero-2 { background-color: #f6f6fe; }
 
 .testimonials { background-color: #fff; }

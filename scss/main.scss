@@ -66,6 +66,53 @@ img {
 	}
 }
 
+.hero-1 {
+	text-align: center;
+
+	&__title {
+		line-height: 1.5;
+		margin-bottom: 30px;
+		margin-top: 25px;
+	}
+
+	&__info {
+		font-size: 14px;
+		margin: 0 auto 25px;
+		width: 95%;
+	}
+
+	&__form-email,
+	&__form-submit {
+		border-radius: 3px;
+		display: block;
+		font-family: 'Raleway', sans-serif;
+		height: 40px;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	&__form-email {
+		border: 1px solid $desaturated-blue;
+		margin-bottom: 15px;
+		padding: 20px;
+
+		&::placeholder {
+			color: $light-gray;
+		}
+	}
+
+	&__form-submit {
+		background-color: $bright-blue;
+		border: none;
+		color: #fff;
+		font-weight: 600;
+
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
 .hero-2 {
 	background-color: $light-grayish-blue;
 }
