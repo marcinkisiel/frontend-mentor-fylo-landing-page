@@ -1,6 +1,6 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-body { font-family: 'Open Sans', sans-serif; padding: 25px; }
+body { font-family: 'Open Sans', sans-serif; }
 
 h1, h2, h3 { font-family: 'Raleway', sans-serif; }
 
@@ -8,7 +8,9 @@ a { text-decoration: none; }
 
 img { width: 100%; }
 
-.header { display: flex; justify-content: space-between; margin-bottom: 100px; }
+.section { padding: 0 25px; }
+
+.header { display: flex; justify-content: space-between; padding-top: 25px; margin-bottom: 100px; }
 
 .header__logo { height: 25px; width: auto; }
 
