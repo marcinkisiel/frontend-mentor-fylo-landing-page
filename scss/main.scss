@@ -122,6 +122,39 @@ li {
 .hero-2 {
 	background-color: $light-grayish-blue;
 	padding-bottom: 80px;
+
+	&__title {
+		font-size: 18px;
+		margin: 85px 0 25px;
+		text-align: center;
+	}
+
+	&__info {
+		color: $desaturated-blue;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	&__cta {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-bottom: 1px solid $moderate-cyan;
+		margin: 0 auto 40px;
+		padding-bottom: 3px;
+		width: max-content;
+		text-align: center;
+	}
+
+	&__link {
+		color: $moderate-cyan;
+		font-size: 13px;
+		margin-right: 10px;
+	}
+
+	&__icon {
+		width: 15px;
+	}
 }
 
 .testimonials {
