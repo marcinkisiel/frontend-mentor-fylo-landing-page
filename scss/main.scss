@@ -12,7 +12,8 @@ $desaturated-blue: hsl(238, 22%, 44%);
 $bright-blue: hsl(224, 93%, 58%);
 $moderate-cyan: hsl(170, 45%, 43%);
 
-$light-grayish-blue: hsl(240, 75%, 98%);
+$light-grayish-blue: #f8f8fe;
+// $light-grayish-blue: hsl(240, 75%, 98%);
 $light-gray: hsl(0, 0%, 75%);
 
 body {
@@ -119,13 +120,53 @@ li {
 }
 
 .hero-2 {
-	&__column {
-		background-color: $light-grayish-blue;
-	}
+	background-color: $light-grayish-blue;
+	padding-bottom: 80px;
 }
 
 .testimonials {
 	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px darken($light-grayish-blue, 5);
+	font-size: 11px;
+	line-height: 1.8;
+	margin: 0 auto;
+	padding: 25px 20px 25px 25px;
+	width: 90%;
+
+	&__icon {
+		width: auto;
+	}
+
+	&__text {
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+
+	&__caption {
+		display: flex;
+		align-items: center;
+	}
+
+	&__photo {
+		border-radius: 50%;
+		height: 25px;
+		margin-right: 10px;
+		width: 25px;
+	}
+
+	&__info {
+		line-height: 1.4;
+	}
+
+	&__name {
+		font-size: 10px;
+		font-weight: 700;
+	}
+
+	&__status {
+		font-size: 8px;
+	}
 }
 
 .newsletter {
@@ -178,7 +219,7 @@ li {
 		justify-content: center;
 		align-items: center;
 		border: 1px solid #fff;
-		border-radius: 50px;
+		border-radius: 50%;
 		color: #fff;
 		height: 30px;
 		width: 30px;
