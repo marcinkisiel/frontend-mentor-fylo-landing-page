@@ -66,7 +66,19 @@ li { list-style: none; }
 
 .testimonials__status { font-size: 8px; }
 
-.newsletter { background-color: #585989; }
+.newsletter { background-color: #585989; color: #fff; padding: 60px 25px 70px; text-align: center; }
+
+.newsletter__title { margin-bottom: 20px; }
+
+.newsletter__info { margin-bottom: 25px; }
+
+.newsletter__email, .newsletter__submit { border: none; border-radius: 2px; box-shadow: 0 0 5px #4e4f79; font-family: 'Raleway', sans-serif; font-size: 11px; height: 32px; padding: 0 10px; width: 240px; }
+
+.newsletter__email { margin-bottom: 7px; }
+
+.newsletter__submit { background-color: #3065f8; border: none; color: #fff; font-weight: 600; }
+
+.newsletter__submit:focus { outline: none; }
 
 .footer { background-color: #070439; color: #fff; padding-top: 65px; }
 

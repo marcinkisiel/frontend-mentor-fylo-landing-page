@@ -204,6 +204,44 @@ li {
 
 .newsletter {
 	background-color: $desaturated-blue;
+	color: #fff;
+	padding: 60px 25px 70px;
+	text-align: center;
+
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__info {
+		margin-bottom: 25px;
+	}
+
+	&__email,
+	&__submit {
+		border: none;
+		border-radius: 2px;
+		box-shadow: 0 0 5px darken($desaturated-blue, 5);
+		font-family: 'Raleway', sans-serif;
+		font-size: 11px;
+		height: 32px;
+		padding: 0 10px;
+		width: 240px;
+	}
+
+	&__email {
+		margin-bottom: 7px;
+	}
+
+	&__submit {
+		background-color: $bright-blue;
+		border: none;
+		color: #fff;
+		font-weight: 600;
+
+		&:focus {
+			outline: none;
+		}
+	}
 }
 
 .footer {
