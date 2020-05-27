@@ -9,6 +9,7 @@
 ### opis
 
 Jest to realizacja wyzwania z portalu **_[Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)_**, w ramach którego trzeba przygotować landing page z dwukolumnowym layoutem w dwóch widokach.<br/>
+Realizując challenge nie bazuję na plikach projektu, ale korzystam z dołączonych niżej widoków w plikach .jpg, więc nie jest to rozwiązanie _pixel-perfect_.<br/>
 Na ten moment jest gotowy tylko widok mobilny bez aktywnych stanów.
 
 ### stan projektu
