@@ -33,6 +33,10 @@ img {
 	width: 100%;
 }
 
+li {
+	list-style: none;
+}
+
 .section {
 	padding: 0 25px;
 }
@@ -55,10 +59,6 @@ img {
 		align-items: center;
 	}
 
-	&__item {
-		list-style: none;
-	}
-
 	&__item + &__item {
 		margin-left: 25px;
 	}
@@ -71,6 +71,7 @@ img {
 }
 
 .hero-1 {
+	margin-bottom: 90px;
 	text-align: center;
 
 	&__title {
@@ -118,7 +119,9 @@ img {
 }
 
 .hero-2 {
-	background-color: $light-grayish-blue;
+	&__column {
+		background-color: $light-grayish-blue;
+	}
 }
 
 .testimonials {
@@ -132,10 +135,63 @@ img {
 .footer {
 	background-color: $very-dark-blue;
 	color: #fff;
+	padding-top: 65px;
+
+	&__logo {
+		height: 50px;
+		margin-bottom: 40px;
+		width: auto;
+	}
+
+	&__contact {
+		margin-bottom: 60px;
+	}
+
+	&__contact-data {
+		margin-bottom: 20px;
+	}
+
+	&__contact-icon {
+		margin-right: 20px;
+		width: 20px;
+	}
+}
+
+.footer-nav {
+	margin-bottom: 50px;
+
+	&__item {
+		margin-bottom: 20px;
+	}
+	&__link {
+		color: #fff;
+	}
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+
+	&__link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid #fff;
+		border-radius: 50px;
+		color: #fff;
+		height: 30px;
+		width: 30px;
+	}
+
+	&__link + &__link {
+		margin-left: 10px;
+	}
 }
 
 .attribution {
 	font-size: 11px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 .attribution a {
