@@ -107,3 +107,16 @@ li { list-style: none; }
 .attribution { font-size: 11px; padding-bottom: 10px; text-align: center; }
 
 .attribution a { color: #3e52a3; }
+
+@media (min-width: 770px) { .container { max-width: 1280px; margin: 0 auto; }
+  .header { align-items: center; margin-bottom: 85px; }
+  .header__logo { height: 50px; }
+  .main-nav__link { font-size: 18px; }
+  .hero-1 { display: flex; align-items: center; flex-direction: row-reverse; margin-bottom: 150px; text-align: left; }
+  .hero-1__column--first { flex-basis: 50%; }
+  .hero-1__column--second { flex-basis: 50%; }
+  .hero-1__title { font-size: 38px; margin-top: 0; }
+  .hero-1__info { font-size: 18px; margin: 0 0 25px; }
+  .hero-1__form-email, .hero-1__form-submit { display: inline; height: 45px; margin: 0 0 15px; }
+  .hero-1__form-email { margin-right: 20px; width: 52%; }
+  .hero-1__form-submit { width: 32%; } }
