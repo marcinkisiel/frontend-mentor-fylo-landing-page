@@ -40,6 +40,8 @@ li { list-style: none; }
 
 .section-break { margin-bottom: -7px; }
 
+.section-break--desktop { display: none; }
+
 .hero-2 { background-color: #f8f8fe; padding-bottom: 80px; }
 
 .hero-2__title { font-size: 18px; margin: 85px 0 25px; text-align: center; }
@@ -119,4 +121,6 @@ li { list-style: none; }
   .hero-1__info { font-size: 18px; margin: 0 0 25px; }
   .hero-1__form-email, .hero-1__form-submit { display: inline; height: 45px; margin: 0 0 15px; }
   .hero-1__form-email { margin-right: 20px; width: 52%; }
-  .hero-1__form-submit { width: 32%; } }
+  .hero-1__form-submit { width: 32%; }
+  .section-break--mobile { display: none; }
+  .section-break--desktop { display: block; } }

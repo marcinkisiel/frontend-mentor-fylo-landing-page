@@ -121,6 +121,10 @@ li {
 
 .section-break {
 	margin-bottom: -7px;
+
+	&--desktop {
+		display: none;
+	}
 }
 
 .hero-2 {
@@ -374,6 +378,15 @@ li {
 		}
 		&__form-submit {
 			width: 32%;
+		}
+	}
+
+	.section-break {
+		&--mobile {
+			display: none;
+		}
+		&--desktop {
+			display: block;
 		}
 	}
 }
