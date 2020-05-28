@@ -504,6 +504,31 @@ li {
 			width: 200px;
 		}
 	}
+
+	.footer {
+		padding-top: 110px;
+
+		&__logo {
+			margin-bottom: 25px;
+		}
+
+		&__container {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	.footer-nav {
+		margin-bottom: 70px;
+	}
+
+	.social-media {
+		margin-right: 15%;
+
+		&__link + &__link {
+			margin-left: 15px;
+		}
+	}
 }
 
 @media (min-width: 1400px) {
