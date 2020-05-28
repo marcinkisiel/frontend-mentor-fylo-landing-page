@@ -110,8 +110,9 @@ li { list-style: none; }
 
 .attribution a { color: #3e52a3; }
 
-@media (min-width: 770px) { .container { max-width: 1280px; margin: 0 auto; }
-  .header { align-items: center; margin-bottom: 85px; }
+@media (min-width: 770px) { .section { padding-left: 25px; padding-right: 25px; }
+  .container { max-width: 1280px; margin: 0 auto; }
+  .header { align-items: center; margin-bottom: 85px; padding-top: 65px; }
   .header__logo { height: 50px; }
   .main-nav__link { font-size: 18px; }
   .hero-1 { display: flex; align-items: center; flex-direction: row-reverse; margin-bottom: 150px; text-align: left; }
@@ -138,7 +139,7 @@ li { list-style: none; }
   .testimonials__photo { height: 35px; width: 35px; }
   .testimonials__name { font-size: 12px; }
   .testimonials__status { font-size: 10px; }
-  .newsletter { padding: 110px 0 100px; }
+  .newsletter { padding-top: 110px; padding-bottom: 100px; }
   .newsletter__container { display: flex; text-align: left; }
   .newsletter__column--first { flex-basis: 58%; }
   .newsletter__column--second { flex-basis: 42%; }
@@ -147,3 +148,5 @@ li { list-style: none; }
   .newsletter__email, .newsletter__submit { box-shadow: 5px 5px 10px #44456a; font-size: 14px; height: 50px; padding: 0 25px; }
   .newsletter__email { width: 480px; margin-bottom: 15px; }
   .newsletter__submit { width: 200px; } }
+
+@media (min-width: 1400px) { .section { padding-left: 0; padding-right: 0; } }
