@@ -349,15 +349,15 @@ li {
 		display: flex;
 		align-items: center;
 		flex-direction: row-reverse;
-		margin-bottom: 150px;
+		margin-bottom: 170px;
 		text-align: left;
 
 		&__column {
 			&--first {
-				flex-basis: 50%;
+				flex-basis: 49%;
 			}
 			&--second {
-				flex-basis: 50%;
+				flex-basis: 51%;
 			}
 		}
 
@@ -393,6 +393,7 @@ li {
 		}
 		&--desktop {
 			display: block;
+			margin-bottom: -20px;
 		}
 	}
 
@@ -416,6 +417,7 @@ li {
 
 		&__title {
 			font-size: 40px;
+			margin-top: 65px;
 			text-align: left;
 		}
 
