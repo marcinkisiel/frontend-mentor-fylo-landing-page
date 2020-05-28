@@ -137,4 +137,13 @@ li { list-style: none; }
   .testimonials__text { font-weight: 500; }
   .testimonials__photo { height: 35px; width: 35px; }
   .testimonials__name { font-size: 12px; }
-  .testimonials__status { font-size: 10px; } }
+  .testimonials__status { font-size: 10px; }
+  .newsletter { padding: 110px 0 100px; }
+  .newsletter__container { display: flex; text-align: left; }
+  .newsletter__column--first { flex-basis: 58%; }
+  .newsletter__column--second { flex-basis: 42%; }
+  .newsletter__title { font-size: 32px; }
+  .newsletter__info { margin-bottom: 0; width: 69%; }
+  .newsletter__email, .newsletter__submit { box-shadow: 5px 5px 10px #44456a; font-size: 14px; height: 50px; padding: 0 25px; }
+  .newsletter__email { width: 480px; margin-bottom: 15px; }
+  .newsletter__submit { width: 200px; } }

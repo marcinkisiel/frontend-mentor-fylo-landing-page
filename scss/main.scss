@@ -453,4 +453,48 @@ li {
 			font-size: 10px;
 		}
 	}
+
+	.newsletter {
+		padding: 110px 0 100px;
+
+		&__container {
+			display: flex;
+			text-align: left;
+		}
+
+		&__column {
+			&--first {
+				flex-basis: 58%;
+			}
+			&--second {
+				flex-basis: 42%;
+			}
+		}
+
+		&__title {
+			font-size: 32px;
+		}
+
+		&__info {
+			margin-bottom: 0;
+			width: 69%;
+		}
+
+		&__email,
+		&__submit {
+			box-shadow: 5px 5px 10px darken($desaturated-blue, 10);
+			font-size: 14px;
+			height: 50px;
+			padding: 0 25px;
+		}
+
+		&__email {
+			width: 480px;
+			margin-bottom: 15px;
+		}
+
+		&__submit {
+			width: 200px;
+		}
+	}
 }
