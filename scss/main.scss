@@ -190,7 +190,6 @@ li {
 		justify-content: center;
 		align-items: center;
 		position: relative;
-		// border-bottom: 1px solid $moderate-cyan;
 		margin: 0 auto 40px;
 		padding-bottom: 3px;
 		width: max-content;
@@ -206,11 +205,11 @@ li {
 		&:hover::after {
 			transform: scaleX(0);
 		}
+	}
 
-		&__icon {
-			width: 15px;
-			margin-left: 10px;
-		}
+	&__icon {
+		width: 15px;
+		margin-left: 5px;
 	}
 }
 
@@ -294,6 +293,7 @@ li {
 		border: none;
 		color: #fff;
 		font-weight: 600;
+		transition: all 0.2s;
 
 		&:focus {
 			outline: none;

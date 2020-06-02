@@ -60,7 +60,7 @@ li { list-style: none; }
 
 .hero-2__cta:hover::after { transform: scaleX(0); }
 
-.hero-2__cta__icon { width: 15px; margin-left: 10px; }
+.hero-2__icon { width: 15px; margin-left: 5px; }
 
 .testimonials { background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px #e2e2fb; font-size: 11px; line-height: 1.8; margin: 0 auto; padding: 25px 20px 25px 25px; width: 90%; }
 
@@ -88,7 +88,7 @@ li { list-style: none; }
 
 .newsletter__email { margin-bottom: 7px; }
 
-.newsletter__submit { background-color: #3065f8; border: none; color: #fff; font-weight: 600; }
+.newsletter__submit { background-color: #3065f8; border: none; color: #fff; font-weight: 600; transition: all 0.2s; }
 
 .newsletter__submit:focus { outline: none; }
 
