@@ -22,7 +22,7 @@ li { list-style: none; }
 
 .main-nav__link { position: relative; color: #070439; font-family: 'Raleway', sans-serif; font-size: 12px; }
 
-.main-nav__link::after { content: ''; position: absolute; background-color: currentColor; width: 100%; height: 2px; bottom: -3px; left: 0; transform-origin: left; transform: scaleX(0); transition: transform 0.2s; }
+.main-nav__link::after { content: ''; position: absolute; background-color: currentColor; width: 100%; height: 1px; bottom: -3px; left: 0; transform-origin: left; transition: transform 0.2s; transform: scaleX(0); }
 
 .main-nav__link:hover::after { transform: scaleX(1); }
 
@@ -38,9 +38,11 @@ li { list-style: none; }
 
 .hero-1__form-email::placeholder { color: #bfbfbf; }
 
-.hero-1__form-submit { background-color: #3065f8; border: none; color: #fff; font-weight: 600; }
+.hero-1__form-submit { background-color: #3065f8; border: none; color: #fff; font-weight: 600; transition: all 0.2s; }
 
 .hero-1__form-submit:focus { outline: none; }
+
+.hero-1__form-submit:hover { background-color: #fff; color: #3065f8; border: 1px solid #3065f8; }
 
 .section-break { margin-bottom: -7px; }
 
@@ -52,11 +54,13 @@ li { list-style: none; }
 
 .hero-2__info { color: #585989; font-size: 16px; margin-bottom: 20px; }
 
-.hero-2__cta { display: flex; justify-content: center; align-items: center; border-bottom: 1px solid #3c9f8f; margin: 0 auto 40px; padding-bottom: 3px; width: max-content; text-align: center; }
+.hero-2__cta { display: flex; justify-content: center; align-items: center; position: relative; margin: 0 auto 40px; padding-bottom: 3px; width: max-content; text-align: center; color: #3c9f8f; font-size: 13px; }
 
-.hero-2__link { color: #3c9f8f; font-size: 13px; margin-right: 10px; }
+.hero-2__cta::after { content: ''; position: absolute; background-color: currentColor; width: 100%; height: 1px; bottom: -3px; left: 0; transform-origin: left; transition: transform 0.2s; transform: scaleX(1); }
 
-.hero-2__icon { width: 15px; }
+.hero-2__cta:hover::after { transform: scaleX(0); }
+
+.hero-2__cta__icon { width: 15px; margin-left: 10px; }
 
 .testimonials { background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px #e2e2fb; font-size: 11px; line-height: 1.8; margin: 0 auto; padding: 25px 20px 25px 25px; width: 90%; }
 
@@ -88,6 +92,8 @@ li { list-style: none; }
 
 .newsletter__submit:focus { outline: none; }
 
+.newsletter__submit:hover { background-color: #fff; color: #3065f8; border: 1px solid #3065f8; }
+
 .footer { background-color: #070439; color: #fff; padding-top: 65px; }
 
 .footer__logo { height: 50px; margin-bottom: 40px; width: auto; }
@@ -104,7 +110,7 @@ li { list-style: none; }
 
 .footer-nav__link { position: relative; color: #fff; }
 
-.footer-nav__link::after { content: ''; position: absolute; background-color: currentColor; width: 100%; height: 2px; bottom: -3px; left: 0; transform-origin: left; transform: scaleX(0); transition: transform 0.2s; }
+.footer-nav__link::after { content: ''; position: absolute; background-color: currentColor; width: 100%; height: 1px; bottom: -3px; left: 0; transform-origin: left; transition: transform 0.2s; transform: scaleX(0); }
 
 .footer-nav__link:hover::after { transform: scaleX(1); }
 
@@ -118,7 +124,9 @@ li { list-style: none; }
 
 .attribution { font-size: 11px; padding-bottom: 10px; text-align: center; }
 
-.attribution a { color: #3e52a3; }
+.attribution a { color: #bfbfbf; }
+
+.attribution a:hover { color: #fff; }
 
 @media (min-width: 770px) { .section { padding-left: 25px; padding-right: 25px; }
   .container { max-width: 1280px; margin: 0 auto; }

@@ -13,11 +13,11 @@ Realizując challenge nie bazuję na plikach projektu, ale korzystam z dołączo
 
 ### stan projektu
 
-nieukończony
+ukończony
 
 ### czas realizacji projektu
 
-maj 2020 - nadal
+maj-czerwiec 2020
 
 ### technologie
 
