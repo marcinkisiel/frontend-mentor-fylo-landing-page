@@ -6,28 +6,28 @@
 
 [Fylo landing page with two column layout](https://marcinkisiel.github.io/frontend-mentor-fylo-landing-page/)
 
-### opis
+### description
 
-Jest to realizacja wyzwania z portalu **_[Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)_**, w ramach którego trzeba przygotować landing page z dwukolumnowym layoutem w dwóch widokach.<br/>
-Realizując challenge nie bazuję na plikach projektu, ale korzystam z dołączonych niżej widoków w plikach **.jpg**, więc nie jest to rozwiązanie _pixel-perfect_.
+This is my solution for **_[Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)_** challenge, which was to build out simple landing page with two column layout.<br/>
+I worked without Sketch design source file, I based my solution on JPEG design files, so this is not a _pixel-perfect_ solution.
 
-### stan projektu
+### current status
 
-ukończony
+finished
 
-### czas realizacji projektu
+### implementation time
 
-maj-czerwiec 2020
+May 2020 - June 2020
 
-### technologie
+### technologies
 
 HTML, CSS
 
-### użyte narzędzia
+### tools used
 
 Sass (SCSS)
 
-### projekt graficzny
+### design
 
 Frontend Mentor
 <br/>
@@ -35,7 +35,7 @@ Frontend Mentor
 ![Design preview](design/desktop-design.jpg)
 ![Design preview](design/mobile-design.jpg)
 
-### kontakt
+### contact
 
 **Marcin Kisiel**:
 <br/>
